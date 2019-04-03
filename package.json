@@ -1,0 +1,32 @@
+{
+  "name": "node-bluez-mesh",
+  "version": "0.0.0",
+  "description": "Bluetooth mesh JS API based on Bluez Mesh DBUS API",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zolkis/node-bluez-mesh.git"
+  },
+  "keywords": [
+    "bluetooth",
+    "mesh",
+    "linux"
+  ],
+  "author": "Zoltan Kis <zoltan.kis@intel.com>",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/zolkis/node-bluez-mesh/issues"
+  },
+  "dependencies": {
+    "dbus": "^1.0.3"
+  },
+  "os": [
+    "!win32"
+  ]
+}
